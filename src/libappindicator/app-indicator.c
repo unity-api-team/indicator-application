@@ -809,13 +809,6 @@ fallback_timer_expire (gpointer data)
 		if (class->fallback != NULL) {
 			priv->status_icon = class->fallback(APP_INDICATOR(data));
 		} 
-	} else {
-		if (class->unfallback != NULL) {
-			class->unfallback(APP_INDICATOR(data), priv->status_icon);
-			priv->status_icon = NULL;
-		} else {
-			g_warning("No 'unfallback' function but the 'fallback' function returned a non-NULL result.");
-		}
 	}
 
 	priv->fallback_timer = 0;
