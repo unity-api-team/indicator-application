@@ -1,9 +1,9 @@
-indicator-application (0.0.21-0ubuntu1~ppa2) lucid; urgency=low
+indicator-application (0.0.22-0ubuntu1~ppa1) UNRELEASED; urgency=low
 
-  * Upstream Merge
-    * Fixing signal names to get submenu updates.
+  * New upstream release.
+    ∘ Work with updated container signal names (lp: #558841)
 
- -- Ted Gould <ted@ubuntu.com>  Fri, 11 Jun 2010 16:41:31 -0500
+ -- Ted Gould <ted@ubuntu.com>  Fri, 09 Jul 2010 14:51:01 -0500
 
 indicator-application (0.0.21-0ubuntu1~ppa1) lucid; urgency=low
 
