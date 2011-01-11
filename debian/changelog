@@ -1,3 +1,13 @@
+indicator-application (0.2.90+r170-0ubuntu2) natty; urgency=low
+
+  * Merged gdbus and dbusmenu-glib-0.4 port
+  * debian/control
+    - Added build depends for dh-autoreconf
+  * debian/rules
+    - Added autoreconf.mk
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Tue, 11 Jan 2011 17:38:55 -0600
+
 indicator-application (0.2.90+r170-0ubuntu1) natty; urgency=low
 
   [ Ted Gould ]
