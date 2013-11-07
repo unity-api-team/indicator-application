@@ -1,3 +1,14 @@
+indicator-application (12.10.1+13.10.20131107-0ubuntu1) saucy; urgency=low
+
+  [ Charles Kerr ]
+  * When we can't get a handle to the system bus, exit gracefully
+    instead of crashing. (LP: #1197788)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 241
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 07 Nov 2013 17:55:46 +0000
+
 indicator-application (12.10.1daily13.01.25-0ubuntu1) raring; urgency=low
 
   [ Charles Kerr ]
