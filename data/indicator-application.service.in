@@ -1,6 +1,7 @@
 [Unit]
 Description=Indicator Application Service
 PartOf=graphical-session.target
+After=unity-panel-service unity8
 
 [Service]
 ExecStart=@pkglibexecdir@/indicator-application-service
