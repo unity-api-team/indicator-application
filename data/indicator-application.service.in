@@ -1,0 +1,6 @@
+[Unit]
+Description=Indicator Application Service
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=@pkglibexecdir@/indicator-application-service

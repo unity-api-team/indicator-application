@@ -48,6 +48,9 @@ PKG_CHECK_MODULES(INDICATOR,  glib-2.0 >= $GLIB_REQUIRED_VERSION
                               dbusmenu-gtk3-0.4 >= $DBUSMENUGTK_REQUIRED_VERSION)
 PKG_CHECK_MODULES(APPINDICATOR, appindicator3-0.1 >= $LIBAPPINDICATOR_REQUIRED_VERSION)
 
+SYSTEMD_USERDIR=`$PKG_CONFIG --variable=systemduserunitdir systemd`
+AC_SUBST(SYSTEMD_USERDIR)
+
 ###########################
 # gcov coverage reporting
 ###########################
@@ -111,4 +114,5 @@ Application Indicator Configuration:
 	Prefix:        $prefix
 	Indicator Dir: $INDICATORDIR
 	gcov:          $use_gcov
+	systemd unit:  $SYSTEMD_USERDIR
 ])
