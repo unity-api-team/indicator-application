@@ -1,2 +1,0 @@
-usr/lib/systemd/user/indicator-application.service usr/lib/systemd/user/unity-panel-service.service.wants/indicator-application.service
-usr/lib/systemd/user/indicator-application.service usr/lib/systemd/user/unity8.service.wants/indicator-application.service
