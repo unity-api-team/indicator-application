@@ -1,3 +1,9 @@
+indicator-application (12.10.1+16.10.20160915.1-0ubuntu1) yakkety; urgency=medium
+
+  * Adding a systemd user unit
+
+ -- Ted Gould <ted@gould.cx>  Thu, 15 Sep 2016 19:35:37 +0000
+
 indicator-application (12.10.1+15.04.20150128-0ubuntu1) vivid; urgency=low
 
   [ Ted Gould ]
