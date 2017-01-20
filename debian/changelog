@@ -1,3 +1,10 @@
+indicator-application (12.10.1+16.10.20170120-0ubuntu1) yakkety; urgency=medium
+
+  * Hide 'Indicator Application' from Startup Applications (LP:
+    #1637379)
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Fri, 20 Jan 2017 20:12:19 +0000
+
 indicator-application (12.10.1+15.04.20150128-0ubuntu1) vivid; urgency=low
 
   [ Ted Gould ]
